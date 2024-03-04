@@ -28,9 +28,8 @@ variable "instance_type" {
    description = "Instance type"
    default     = "t2.micro"
 }
-
-variable "name_tag" {
+variable "env" {
    type        = string
-   description = "Name of the EC2 instance"
-   default     = "dev-poc-instance"
+   description = "Environment Name"
+   default     = "dev"
 }
