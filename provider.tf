@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "aws-Account1"
+    organization = "Ashik_DevOps_Demo"
 
     workspaces {
       name = "workspace001-dev"
